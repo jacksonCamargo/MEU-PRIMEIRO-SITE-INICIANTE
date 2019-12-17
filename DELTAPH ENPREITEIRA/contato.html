@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+	<meta charset="UTF-8" />
+	<title> DELTAPH EMPREITEIRA</title>
+	<link rel="stylesheet" href="_css/index.css" />
+	<link rel="stylesheet" href="_css/contato.css" />
+</head>
+<script src="_javascript/funcoes.js">
+</script>
+
+<body>
+	<!--inicio da interface -->
+	<div id="interface">
+		<header id="cabecalho">
+			<h1>DELTAPH EMPREITEIRA</h1>
+			<!--inicio do menu-->
+			<nav id="menu">
+				<ul>
+
+					<li><a href="home.html">Home</a></li>
+					<li onmouseover="mudaFoto('_imagens/quem-somos.png')"
+						onmouseout="mudaFoto('_imagens/icone-contato.png')"><a href="quem somos.html">Quem Somos</a>
+					</li>
+					<li onmouseover="mudaFoto('_imagens/servicos.png')"
+						onmouseout="mudaFoto('_imagens/icone-contato.png')"><a href="index.html">Serviços</a></li>
+					<li onmouseover="mudaFoto('_imagens/fotos.png')"
+						onmouseout="mudaFoto('_imagens/icone-contato.png')"><a href="fotos.html">Fotos</a></li>
+					<li onmouseover="mudaFoto('_imagens/contato.png')"
+						onmouseout="mudaFoto('_imagens/icone-contato.png')"><a href="contato.html">Contato</a></li>
+				</ul>
+			</nav>
+			<!---fim do menu--->
+			<img id="icone" src="_imagens/icone-contato.png" width="150px">
+		</header>
+	</div>
+
+	<div id="texto">
+		<h1>Contato</h1>
+		<form method="get" id="fContato" action="mailto: leandrodiasbezerra95@gmail.com">
+			<fieldset id="usuario">
+				<legend>Indentificão do usuario</legend>
+				<p>Nome:<input type="text" name="tNome" id="cNome" size="20" maxlength="25"
+						placeholder="Digite seu nome" /></p>
+				<p>Email:<input type="email" name="tMail" id="cMail" size="20" maxlength="45"
+						placeholder="Digite seu Email" /></p>
+
+				<fieldset> <!--agrupador de elementos -->
+					<p>Data de nascimento:<input type="date" name="tNasc" id="cNasc" /></p>
+				</fieldset>
+			</fieldset>
+
+			<fieldset id="mensagem">
+				<legend>Mensagen do usuario</legend>
+				<p><label for="cUrg">Grau de Urgência:</label> Min<input type="range" name="tUrg" id="cUrg" min="0"
+						max="10" step="2" />Máx</p>
+				<p><label for="cMsg">Mensagen:</label><textarea name="tMsg" id="cMsg" rows="5"
+						placeholder="Deixe aqui sua mensagem"></textarea></p>
+			</fieldset>
+
+			<input type="image" src="_imagens/botao-enviar.png">
+		</form>
+	</div>
+	<footer id="rodape">
+		<p>Copyright &copy; 2019 </br>
+			<a href="https://www.facebook.com/deltaph.empreiteira.39" target="_blank">Fecebook</a></br>
+			CNPJ: 33.197.106/0001-86 </br>
+			Rua: Alor Bronzone, 35 </p>
+	</footer>
+</body>
+
+</html>

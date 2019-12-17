@@ -1,0 +1,120 @@
+@charset "UTF-8";
+@font-face{
+	font-family:'FonteLogo' ;
+	src: url("../_fonts/.bubblegum-sans-regular.otf" );
+}
+ body{
+	 
+	 background-color: #dddddd;
+     color :rgba(0,0,0,1); 
+	 margin: auto;
+	 width: 1050px;
+ }
+
+ p{
+	 text-align: justify;
+	 text-indent:40px;
+	 font-family: 'FonteLogo', sans-serif;
+
+ }
+
+h1, h2, h3{
+	font-size: 2em;
+	color: #606060;
+	box-shadow: 1px 1px black;
+	font-family: 'FonteLogo', sans-serif;
+}
+ 
+ div#interface{
+	 background-color: #ffffff;
+	 width:1000px;
+	 margin: 20px auto 10px auto ;
+	box-shadow:3px 3px 3px black;
+	padding:10px 10px 10px 10px ;
+ }
+ 
+  div#texto{
+	 background-color: #ffffff;
+	 width:1000px;
+	 margin: 20px auto 10px auto ;
+	box-shadow:3px 3px 3px black;
+	padding:10px 10px 10px 10px ;
+	
+
+ }
+ /*MENU*/
+ 
+nav#menu ul{
+	list-style: none;
+	text-transform: uppercase;
+
+}
+
+nav#menu li{
+	display: inline-block;
+	background-color: #606060;
+	padding: 10px;
+	margin: 2px;
+	transition: background-color 1s; 
+}
+
+nav#menu li:hover{
+	background-color: blue;
+
+}
+
+nav#menu{
+	display: block;
+}
+
+nav#menu a{
+ color: black;
+ text-decoration: none;
+}
+
+nav#menu a:hover{
+	 color: gold;
+	 text-decoration: underline;
+
+}
+
+nav#menu ul{
+	list-style: none;
+	text-transform: uppercase;
+	position: absolute;
+	top: 95px ;
+	left: ;
+}
+
+header#cabecalho img#icone{
+	position: absolute;
+	left: 800px;
+	top: 50px;
+}
+
+section#corppo{
+	display: block;
+	width: 500px;
+	float: left;
+}
+
+aside#lateral{
+	display: block;
+	width: 350px;
+	float: right;
+}
+
+footer#rodape{
+	clear: both;
+	border-top: 1px solid #606060;
+	background-color: #606060;  
+
+}
+
+footer#rodape p{
+	text-align: center;
+}
+
+footer#rodape a{  
+	color: black;
+}
