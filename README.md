@@ -1,5 +1,5 @@
 # SITE DELTAP EMPREITEIRA 
-# TECNOLOGIAS: HTML,CSS JAVA SCRIPT
+# TECNOLOGIAS: HTML,CSS JAVASCRIPT
 
 -  este site foi construido no meu primeiro contato com tecnologia.
 
